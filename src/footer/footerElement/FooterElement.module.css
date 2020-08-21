@@ -1,0 +1,9 @@
+.footerElement {
+    width: 60px;
+    background-color: #e1e0ff;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: grey;
+}

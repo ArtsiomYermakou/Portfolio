@@ -1,0 +1,20 @@
+.footerBlock {
+    height: 20vh;
+    background-color: #2F4F4F;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    background-color: #bebed9;
+    padding: 3px 0px 10px 0px;
+}
+.foot {
+    border: 1px solid;
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright {
+    background-color: #8d8d9f;
+    margin-top: 20px;
+}
