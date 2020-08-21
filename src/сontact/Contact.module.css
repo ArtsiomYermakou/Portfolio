@@ -1,0 +1,24 @@
+.contactBlock {
+    height: 40vh;
+    background-color: burlywood;
+}
+.contactContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    background-color: #bebed9;
+}
+.contact {
+    border: 1px solid;
+    width: 100%;
+}
+.form {
+    text-align: center;
+}
+.textarea {
+    min-width: 300px;
+    min-height: 100px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
