@@ -1,6 +1,7 @@
 .mainBlock {
     height: 100vh;
     background-color: #ffb3a2;
+    flex-wrap: wrap;
 }
 
 .text {

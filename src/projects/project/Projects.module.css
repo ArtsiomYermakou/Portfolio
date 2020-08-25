@@ -1,5 +1,5 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #e1e0ff;
 }
 /*выравнивает заголовок и содержимое по центру 1) вертикаль 2) начало сверху*/
