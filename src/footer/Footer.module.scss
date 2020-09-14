@@ -1,0 +1,48 @@
+@import "./../common/styles/sass/variables.scss";
+
+.footerBlock {
+  height: 26vh;
+  background-color: $bgColor;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .title {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: $textColor;
+    padding: 10px 0px 0px 0px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-decoration: underline;
+    text-decoration-color: $primaryColor;
+  }
+
+  .foot {
+    border: 1px solid;
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    margin-top: 50px;
+    line-height: 14px;
+    color: #9899a8;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    box-sizing: inherit;
+    outline: none;
+
+  }
+}
+
+

@@ -1,27 +1,44 @@
 import React from "react";
-import style from "../project/Projects.module.css"
+import style from "./Projects.module.scss"
 import styleContainer from "../../common/styles/Container.module.css"
 import Project from "./project/Project";
-import logo1 from "../../common/img/wind.jpg"
-import logo2 from "../../common/img/EA.jpg"
+import Title from "../../common/components/title/Title";
+import socialNetwork from "./../../assets/image/sn3.jpg"
+import calculatorImg from "./../../assets/image/calculator2.png"
+import todoImg from "./../../assets/image/todo.png"
+
 
 const Projects = () => {
+
+    const social = {
+        backgroundImage: `url(${socialNetwork})`,
+    };
+    const calculator = {
+        backgroundImage: `url(${calculatorImg})`,
+    };
+    const todolist = {
+        backgroundImage: `url(${todoImg})`,
+    };
+
+
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <h2 className={style.title}>My Projects</h2>
+                <Title title={"My Projects"}/>
                 <div className={style.projects}>
-                    <Project title={"Microsoft"}
-                             projectName={"Windows"}
-                             img={logo1}
-                             link={"https://www.microsoft.com/ru-ru/windows"}
-                             shortDescr={"Lorem ipsum dolor sit amet."}
+                    <Project
+                        style={calculator}
+                        title={"Calculator"}
+                        shortDescr={"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."}
                     />
-                    <Project title={"Electronic Arts"}
-                             projectName={"Electronic Arts"}
-                             img={logo2}
-                             link={"https://www.ea.com/ru-ru"}
-                             shortDescr={"Ab dignissimos doloremque hic minima non, repellat reprehenderit totam voluptate voluptatibus! In, molestias"}
+                    <Project
+                        style={social}
+                        title={"Social Network"}
+                        shortDescr={"Ab dignissimos doloremque hic minima non, repellat reprehenderit totam voluptate voluptatibus! In, molestias"}
+                    /><Project
+                        style={todolist}
+                        title={"Todolist"}
+                        shortDescr={"Ab dignissimos doloremque hic minima non, repellat reprehenderit totam voluptate voluptatibus! In, molestias"}
                     />
                 </div>
             </div>

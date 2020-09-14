@@ -1,0 +1,32 @@
+@import "./../common/styles/sass/variables.scss";
+
+.skillsBlock {
+    font-family: 'Playfair Display', serif;
+    min-height: 100vh;
+    background-color: $bgSecondColor;
+
+}
+.skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    background-color: aliceblue;
+}
+.skills {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: $textColor;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 630px){
+    .skills{
+        justify-content: center;
+    }
+}
