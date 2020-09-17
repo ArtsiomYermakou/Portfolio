@@ -1,13 +1,15 @@
 @import "../common/styles/sass/variables";
 
 .contactBlock {
-    height: 55vh;
+    min-height: 55vh;
     background-color: $bgSecondColor;
     .contactContainer {
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         .contact {
             width: 100%;
+            display: flex;
+            justify-content: center;
             .form {
                 font-family: 'Playfair Display', serif;
                 text-align: center;
@@ -20,8 +22,15 @@
                 font-weight: 400;
                 line-height: 1.7em;
                 letter-spacing: 0.1px;
-                .name{
-                    width: 40%;
+                width: 550px;
+                @media (max-width: 900px) {
+                    width: 70%;
+                }
+                @media (max-width: 500px) {
+                    width: 100%;
+                }
+                .name, .email{
+                    width: 100%;
                     padding: 8px 16px;
                     color: black;
                     border: 1px solid $bgSecondColor;
@@ -40,33 +49,12 @@
                     border-radius: 20px;
                     font-weight: 500;
                 }
-                .email{
-                    width: 40%;
-                    padding: 8px 16px;
-                    color: black;
-                    border: 1px solid $bgSecondColor;
-                    outline: none;
-                    line-height: inherit;
-                    margin: 0px 0px 20px 0px;
-                    font: inherit;
-                    letter-spacing: normal;
-                    word-spacing: normal;
-                    text-transform: none;
-                    text-indent: 0px;
-                    text-shadow: none;
-                    display: inline-block;
-                    text-align: start;
-                    -webkit-rtl-ordering: logical;
-                    cursor: text;
-                    border-radius: 20px;
-                    font-weight: 500;
-                }
                 .textarea {
                     font: inherit;
                     border: 1px solid #ccc;
                     max-height: 110px;
                     padding: 20px;
-                    width: 40%;
+                    width: 100%;
                     font-size: 16px;
                     line-height: 1.42857143;
                     color: black;

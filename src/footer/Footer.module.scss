@@ -30,10 +30,15 @@
     width: 34%;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 900px) {
+      width: 60%;
+    }
+    @media (max-width: 500px) {
+      width: 100%;
+    }
   }
 
   .copyright {
-    margin-top: 50px;
     line-height: 14px;
     color: #9899a8;
     font-size: 14px;
@@ -41,7 +46,7 @@
     font-weight: 600;
     box-sizing: inherit;
     outline: none;
-
+    margin: 50px 0 0;
   }
 }
 

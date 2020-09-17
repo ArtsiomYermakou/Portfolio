@@ -12,7 +12,7 @@ const Main = () => {
 
     return (
         <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${style.MainContainer}`}>
                 <div className={style.text}>
                     <span className={style.bigText}>Hello, I’m</span>
                     <h1>Artem Ermakov</h1>
