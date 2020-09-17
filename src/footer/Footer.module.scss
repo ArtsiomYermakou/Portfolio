@@ -1,7 +1,7 @@
 @import "./../common/styles/sass/variables.scss";
 
 .footerBlock {
-  min-height: 22vh;
+  min-height: 26vh;
   background-color: $bgColor;
   flex-direction: column;
   justify-content: flex-start;
@@ -46,8 +46,7 @@
     font-weight: 600;
     box-sizing: inherit;
     outline: none;
-    margin: 44px 0 0;
-    padding: 5px;
+    margin: 50px 0 0;
   }
 }
 
