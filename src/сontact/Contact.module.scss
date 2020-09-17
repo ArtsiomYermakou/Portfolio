@@ -1,7 +1,7 @@
 @import "../common/styles/sass/variables";
 
 .contactBlock {
-    min-height: 55vh;
+    min-height: 40vh;
     background-color: $bgSecondColor;
     .contactContainer {
         flex-direction: column;
@@ -65,7 +65,7 @@
                     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
                 }
                 .button {
-                    border: 2px solid $primaryColor;
+                    border: 1px solid $bgColor;
                     color: black;
                     font-size: 18px;
                     margin-top: 40px;

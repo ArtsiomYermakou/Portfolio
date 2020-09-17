@@ -2,19 +2,19 @@
 
 .projectsBlock {
   background-color: $bgColor;
-  padding: 100px 0;
+  padding: 0;
 
   .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
 
     .projects {
-      margin-top: 20px;
       width: 100%;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
       align-items: flex-start;
+      padding-bottom: 70px;
     }
   }
 }
