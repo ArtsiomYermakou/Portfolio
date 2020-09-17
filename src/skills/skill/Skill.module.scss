@@ -15,23 +15,29 @@
     transition-duration: 0.3s;
     border-radius: 30px;
     margin: 14px;
+    .icon {
+        background-color: #fff;
+
+    }
+    & h3{
+        margin: 12px 0 20px 0;
+    }
+    .description {
+        font-family: 'Baloo Tammudu 2', cursive;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0 0 15px;
+        outline: none;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: left;
+        line-height: 1.7em;
+        letter-spacing: 0.1px;
+        color: $textColor;
+    }
 }
-.icon {
-    background-color: #fff;
-}
-.description {
-    font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 18px;
-    font-weight: 300;
-    margin: 0 0 15px;
-    outline: none;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: left;
-    line-height: 1.7em;
-    letter-spacing: 0.1px;
-    color: $textColor;
-}
+
+
