@@ -63,7 +63,7 @@
   }
 
   .projectInfo {
-    padding: 25px 20px;
+    padding: 5px 20px;
 
     .projectTitle {
       font-family: 'Playfair Display', serif;
@@ -100,6 +100,26 @@
       text-align: left;
       line-height: 1.7em;
       letter-spacing: 0.1px;
+      text-decoration: underline;
+      text-decoration-color: $primaryColor;
+
+    }
+    .link {
+      font-family: 'Baloo Tammudu 2', cursive;
+      font-size: 18px;
+      font-weight: 400;
+      box-sizing: border-box;
+      margin: 0 0 15px;
+      outline: none;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      text-align: left;
+      line-height: 1.7em;
+      letter-spacing: 0.1px;
+      color: $primaryColor;
     }
   }
 }

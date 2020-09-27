@@ -8,19 +8,28 @@ import jsImg from "../assets/image/jsLogo.png"
 import reduxImg from "../assets/image/reduxLogo.png"
 import testImg from "../assets/image/test.png"
 import Zoom from "react-reveal";
+import Tilt from 'react-tilt'
+import sassImg from '../assets/image/sass.png'
+import gitImg from '../assets/image/git.png'
+import apiImg from '../assets/image/api.png'
+import materialUiImg from '../assets/image/material-ui.png'
 
 
 const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div id={"skills"} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={"Skills"}/>
                 <div className={style.skills}>
                     <Zoom bottom>
-                    <Skill icon={reactImg} title="React" description="Donec dapibus a magna vel lobortis."/>
-                    <Skill icon={jsImg} title="JavaScript" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
-                    <Skill icon={reduxImg} title="Redux" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
-                    <Skill icon={testImg} title="TDD" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={reactImg} title="React"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={jsImg} title="JavaScript"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={reduxImg} title="Redux"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={testImg} title="TDD"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={sassImg} title="SASS"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={gitImg} title="GIT"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={apiImg} title="API"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={materialUiImg} title="Material-UI"/></Tilt>
                     </Zoom>
                 </div>
             </div>

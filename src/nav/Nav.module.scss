@@ -1,28 +1,42 @@
 @import "./../common/styles/sass/variables.scss";
 
 .nav {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    z-index: 2;
-    & a{
-        font-family: 'Baloo Tammudu 2', cursive;
-        line-height: 30px;
-        font-weight: 600;
-        color: $textColor;
-        font-size: 18px;
-        position: relative;
-        margin-left: -4px;
-        padding: 0 20px;
-        display: inline-block;
-        box-sizing: inherit;
-        outline: none;
-        text-align: -webkit-match-parent;
-        list-style: none;
-        text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 2;
+
+  & a {
+    font-family: 'Baloo Tammudu 2', cursive;
+    line-height: 30px;
+    font-weight: 600;
+    color: $textColor;
+    font-size: 18px;
+    position: relative;
+    margin-left: -4px;
+    padding: 0 20px;
+    display: inline-block;
+    box-sizing: inherit;
+    outline: none;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+      color: $primaryColor;
     }
+  }
+
+  .active {
+    color: $primaryColor;
+  }
+  @media screen and (max-width: 400px){
+    display: none;
+  }
 }

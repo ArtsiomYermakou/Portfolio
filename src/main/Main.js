@@ -5,6 +5,7 @@ import avatar from "./../assets/image/mainPhoto.jpg"
 import Particles from "react-particles-js";
 import Zoom from "react-reveal";
 import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt'
 
 
 const particlesOpt = {
@@ -121,7 +122,7 @@ const particlesOpt = {
 const Main = () => {
 
     return (
-        <div className={style.mainBlock}>
+        <div id={"main"} className={style.mainBlock}>
             <Particles className={style.particles} params={particlesOpt}/>
             <div className={`${styleContainer.container} ${style.MainContainer}`}>
                 <Zoom bottom>
@@ -133,7 +134,9 @@ const Main = () => {
                         </span>
                     </div>
                     <div className={style.photo}>
-                        <img className={style.ava} src={avatar} alt="avatar"/>
+                        <Tilt className={"Tilt"} options={{max: 20}}>
+                            <img className={style.ava} src={avatar} alt="avatar"/>
+                        </Tilt>
                     </div>
                 </Zoom>
             </div>
