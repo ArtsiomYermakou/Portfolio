@@ -4,28 +4,43 @@
   min-height: 100vh;
   background-color: $bgColor;
   padding: 100px 0;
+
   .MainContainer {
     flex-wrap: wrap;
+
     .text {
       width: 360px;
       background-color: $bgColor;
+
       .bigText {
         font-family: 'Baloo Tammudu 2', cursive;
         font-size: 40px;
         font-weight: 500;
         color: #ffc576;
-        text-align:left;
+        text-align: left;
       }
     }
+
     .photo {
       width: 360px;
       height: 400px;
-      background-color: $textColor;
-      .ava {
 
+      .ava {
+        margin: 0;
+        max-height: 720px;
+        border-radius: 20px;
+        @media (max-width: 900px) {
+          max-width: 90%;
+          margin: 10px;
+          padding: 5px;
+        }
+        @media (max-width: 380px) {
+          max-width: 98%;
+        }
       }
     }
-    .text h1{
+
+    .text h1 {
       font-family: 'Playfair Display', serif;
       font-size: 70px;
       line-height: 1.2;
@@ -39,6 +54,7 @@
       hyphens: manual;
       width: min-content;
     }
+
     .text p {
       font-family: 'Baloo Tammudu 2', cursive;
       box-sizing: border-box;

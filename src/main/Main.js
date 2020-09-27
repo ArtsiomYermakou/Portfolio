@@ -1,14 +1,10 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from "./../common/styles/Container.module.css"
-import avatar from "./../assets/image/avatar.jpg"
+import avatar from "./../assets/image/mainPhoto.jpg"
 
 
 const Main = () => {
-
-    const ava = {
-        backgroundImage: `url(${avatar})`,
-    };
 
     return (
         <div className={style.mainBlock}>
@@ -19,7 +15,7 @@ const Main = () => {
                     <p>Frontend Developer.</p>
                 </div>
                 <div className={style.photo}>
-                    <div className={style.ava} style={ava}/>
+                    <img className={style.ava} src={avatar} alt="avatar"/>
                 </div>
             </div>
         </div>
