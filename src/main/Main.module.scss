@@ -12,14 +12,15 @@
     right: 0;
     bottom: 0;
     opacity: 0.4;
+    z-index: 1;
   }
 
   .MainContainer {
     flex-wrap: wrap;
+    z-index: 2;
 
     .text {
       width: 360px;
-      background-color: $bgColor;
 
       .bigText {
         font-family: 'Baloo Tammudu 2', cursive;
@@ -33,7 +34,7 @@
     .photo {
       width: 360px;
       height: 400px;
-      z-index: 1;
+      z-index: 2;
 
       .ava {
         margin: 0;
@@ -65,10 +66,9 @@
       width: min-content;
     }
 
-    .text p {
+    .text span {
       font-family: 'Baloo Tammudu 2', cursive;
       box-sizing: border-box;
-      display: block;
       font-weight: 500;
       color: $textColor;
       font-size: 28px;

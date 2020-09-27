@@ -6,6 +6,7 @@ import Title from "../../common/components/title/Title";
 import socialNetwork from "./../../assets/image/sn3.jpg"
 import calculatorImg from "./../../assets/image/calculator2.png"
 import todoImg from "./../../assets/image/todo.png"
+import Zoom from "react-reveal";
 
 
 const Projects = () => {
@@ -25,22 +26,24 @@ const Projects = () => {
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title title={"My Projects"}/>
-                <div className={style.projects}>
-                    <Project
-                        style={calculator}
-                        title={"Calculator"}
-                        shortDescr={"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."}
-                    />
-                    <Project
-                        style={social}
-                        title={"Social Network"}
-                        shortDescr={"Ab dignissimos doloremque hic minima non, repellat reprehenderit totam voluptate voluptatibus! In, molestias"}
-                    /><Project
+                <Zoom bottom>
+                    <div className={style.projects}>
+                        <Project
+                            style={calculator}
+                            title={"Calculator"}
+                            shortDescr={"Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet."}
+                        />
+                        <Project
+                            style={social}
+                            title={"Social Network"}
+                            shortDescr={"Ab dignissimos doloremque hic minima non, repellat reprehenderit totam voluptate voluptatibus! In, molestias"}
+                        /><Project
                         style={todolist}
                         title={"Todolist"}
                         shortDescr={"Ab dignissimos doloremque hic minima non, repellat reprehenderit totam voluptate voluptatibus! In, molestias"}
                     />
-                </div>
+                    </div>
+                </Zoom>
             </div>
         </div>
     )

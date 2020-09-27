@@ -7,6 +7,7 @@ import reactImg from "../assets/image/react.png"
 import jsImg from "../assets/image/jsLogo.png"
 import reduxImg from "../assets/image/reduxLogo.png"
 import testImg from "../assets/image/test.png"
+import Zoom from "react-reveal";
 
 
 const Skills = () => {
@@ -15,10 +16,12 @@ const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={"Skills"}/>
                 <div className={style.skills}>
+                    <Zoom bottom>
                     <Skill icon={reactImg} title="React" description="Donec dapibus a magna vel lobortis."/>
                     <Skill icon={jsImg} title="JavaScript" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
                     <Skill icon={reduxImg} title="Redux" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
                     <Skill icon={testImg} title="TDD" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+                    </Zoom>
                 </div>
             </div>
         </div>
