@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import style from './BurgerNav.module.scss';
 import {Link} from "react-scroll";
-import menu from "./../assets/image/menu.png"
+import burgerMenu from "../header/BurgerButton.scss"
 
 const BurgerNav = () => {
     const [toggleBurger, setToggleBurger] = useState(false)
@@ -44,8 +44,11 @@ const BurgerNav = () => {
                       duration={2000}>CONTACT ME
                 </Link>
             </div>
-            <div onClick={toggleBurgerMenu} className={style.burgerBtn}>
-                <span></span>
+            <div id="menuToggle" onClick={toggleBurgerMenu} className={style.burgerBtn}>
+                <input type="checkbox"/>
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
             </div>
         </div>
     );
