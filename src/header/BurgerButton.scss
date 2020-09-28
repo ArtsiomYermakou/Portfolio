@@ -3,12 +3,13 @@
 #menuToggle {
     overflow: hidden;
     position: absolute;
-    width: 25%;
+    width: 12%;
     height: 68%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    right: 10px;
 }
 
 #menuToggle input {
