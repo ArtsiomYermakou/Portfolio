@@ -40,7 +40,7 @@ const BurgerNav = () => {
                       to="contact"
                       spy={true}
                       smooth={true}
-                      offset={-100}
+                      offset={0}
                       duration={2000}>CONTACT ME
                 </Link>
             </div>

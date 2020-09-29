@@ -1,7 +1,7 @@
 @import "../common/styles/sass/variables";
 
 .contactBlock {
-  min-height: 40vh;
+  min-height: 80vh;
   background-color: $bgSecondColor;
 
   .contactContainer {
@@ -12,6 +12,7 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      margin-top: 10%;
 
       .form {
         font-family: 'Playfair Display', serif;
