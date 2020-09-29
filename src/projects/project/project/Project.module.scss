@@ -120,6 +120,12 @@
       line-height: 1.7em;
       letter-spacing: 0.1px;
       color: $primaryColor;
+      text-decoration: underline;
+      text-decoration-color: $primaryColor;
+    }
+    .link:hover{
+      color: $textColor;
+      transition: 0.4s;
     }
   }
 }
