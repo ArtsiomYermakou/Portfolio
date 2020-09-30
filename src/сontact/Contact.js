@@ -13,7 +13,7 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 
 const Contact = () => {
 
-    const [preload, setPreload] = useState(null)
+    const [preloader, setPreloader] = useState(null)
 
     const [buttonSend, setButtonSend] = useState(true)
 
@@ -31,7 +31,7 @@ const Contact = () => {
     }
 
     const onSubmit = values => {
-        setPreload(<CircularProgress color={"secondary"} />)
+        setPreloader(<CircularProgress color={"secondary"} />)
         axios.post("https://smtp-nodejs-serv.herokuapp.com/sendMessage", {
             name: formik.values.name,
             contacts: formik.values.contacts,
@@ -39,7 +39,8 @@ const Contact = () => {
         })
             .then(() => {
                 doneAlert();
-                setPreload(null)
+                setPreloader(null)
+                formik.resetForm();
             })
         values.preventDefault()
     }
@@ -77,7 +78,7 @@ const Contact = () => {
                 <Zoom bottom>
                     <div className={style.contact}>
                         <form onSubmit={onSubmit} id={"contactForm"} className={style.form}>
-                            {preload}
+                            {preloader}
                             <input value={formik.values.name} onChange={formik.handleChange} name={"name"} onBlur={formik.handleBlur} className={style.name} type="text" placeholder="Name?"/><br/>
                             {formik.touched.name && formik.errors.name ? <div className={style.error}>{formik.errors.name}</div> : null}
                             <input value={formik.values.contacts} onChange={formik.handleChange} name={"contacts"} onBlur={formik.handleBlur} className={style.email} type="email" placeholder="Email"/><br/>
