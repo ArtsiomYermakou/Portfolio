@@ -32,7 +32,7 @@ const Contact = () => {
 
     const onSubmit = values => {
         setPreload(<CircularProgress color={"secondary"} />)
-        axios.post("http://localhost:3010/sendMessage", {
+        axios.post("https://smtp-nodejs-serv.herokuapp.com/sendMessage", {
             name: formik.values.name,
             contacts: formik.values.contacts,
             message: formik.values.message
