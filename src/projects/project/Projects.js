@@ -37,7 +37,7 @@ const Projects = () => {
                         <Project
                             style={social}
                             title={"Social Network"}
-                            shortDescr={"React, Redux, API"}
+                            shortDescr={"RestAPI, React, Redux, TypeScript, Classes, Hooks, Redux-form, Axios, Grid, Module CSS"}
                             linkGitHub={"https://github.com/ArtsiomYermakou/social-network"}
                             linkGHPages={"https://artsiomyermakou.github.io/social-network/#/profile"}
 
@@ -45,7 +45,7 @@ const Projects = () => {
                         <Project
                             style={todolist}
                             title={"Todolist"}
-                            shortDescr={"React, Redux, API, Material-UI"}
+                            shortDescr={"React, Redux, API, Material-UI, TypeScript, Classes, Hooks, Axios, Grid, Module CSS"}
                             linkGitHub={"https://github.com/ArtsiomYermakou/less_todo_main"}
                             linkGHPages={"https://artsiomyermakou.github.io/less_todo_main/"}
                         />
@@ -55,12 +55,11 @@ const Projects = () => {
                             shortDescr={"JS, SCSS"}
                             linkGitHub={"https://github.com/ArtsiomYermakou/Calculator-UI"}
                             linkGHPages={"https://artsiomyermakou.github.io/Calculator-UI/"}
-
                         />
                         <Project
                             style={compon}
                             title={"Mini component test"}
-                            shortDescr={"JS, SCSS, Material-UI"}
+                            shortDescr={"JS, SCSS, Material-UI, TypeScript, Hooks, Module CSS"}
                             linkGitHub={"https://github.com/ArtsiomYermakou/ignat-lessons"}
                             linkGHPages={"https://artsiomyermakou.github.io/ignat-lessons/#/"}
 
