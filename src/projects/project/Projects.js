@@ -5,7 +5,7 @@ import Project from "./project/Project";
 import Title from "../../common/components/title/Title";
 import socialNetwork from "./../../assets/image/sn3.jpg"
 import componentJpg from "./../../assets/image/component.jpg"
-
+import pageProfileImage from "../../assets/image/pageProfile.jpg"
 import calculatorImg from "./../../assets/image/calculator2.png"
 import todoImg from "./../../assets/image/todo.png"
 import Zoom from "react-reveal";
@@ -24,6 +24,9 @@ const Projects = () => {
     };
     const compon = {
         backgroundImage: `url(${componentJpg})`,
+    };
+    const pageProfile = {
+        backgroundImage: `url(${pageProfileImage})`,
     };
 
 
@@ -50,6 +53,13 @@ const Projects = () => {
                             linkGHPages={"https://artsiomyermakou.github.io/less_todo_main/"}
                         />
                         <Project
+                            style={pageProfile}
+                            title={"Personal Profile"}
+                            shortDescr={"NextJS, React, API, Material-UI, TypeScript, Heroku, LocalStorage, Classes, Hooks, Axios, Module CSS"}
+                            linkGitHub={"https://github.com/ArtsiomYermakou/test_sun"}
+                            linkGHPages={"https://project-name-a.herokuapp.com"}
+                        />
+                        <Project
                             style={calculator}
                             title={"Calculator"}
                             shortDescr={"JS, SCSS"}
@@ -62,7 +72,6 @@ const Projects = () => {
                             shortDescr={"JS, SCSS, Material-UI, TypeScript, Hooks, Module CSS"}
                             linkGitHub={"https://github.com/ArtsiomYermakou/ignat-lessons"}
                             linkGHPages={"https://artsiomyermakou.github.io/ignat-lessons/#/"}
-
                         />
                     </div>
                 </Zoom>

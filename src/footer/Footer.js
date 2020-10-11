@@ -16,7 +16,8 @@ const Footer = () => {
                 <div className={style.foot}>
                     <Zoom bottom>
                         <FooterElement photo={instagram} link={"https://www.instagram.com/ermak.o.v/"}/>
-                        <FooterElement photo={facebook} link={"https://www.facebook.com/profile.php?id=100003737442470"}/>
+                        <FooterElement photo={facebook}
+                                       link={"https://www.facebook.com/profile.php?id=100003737442470"}/>
                         <FooterElement photo={telegram} link={"https://t.me/ermakoovv"}/>
                         <FooterElement photo={github} link={"https://github.com/ArtsiomYermakou"}/>
                     </Zoom>

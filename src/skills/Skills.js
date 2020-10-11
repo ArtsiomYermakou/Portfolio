@@ -21,6 +21,7 @@ import fluxImg from '../assets/image/flux.png'
 import typeScriptImg from '../assets/image/typescript.png'
 import htmlImg from '../assets/image/html5.png'
 import cssImg from '../assets/image/css.png'
+import nextLogoImg from '../assets/image/next_logo.png'
 
 
 const Skills = () => {
@@ -32,6 +33,7 @@ const Skills = () => {
                     <Zoom bottom>
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={reactImg} title="React"/></Tilt>
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={reduxImg} title="Redux"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={nextLogoImg} title="Next.JS"/></Tilt>
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={jsImg} title="JavaScript"/></Tilt>
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={typeScriptImg} title="TypeScript"/></Tilt>
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={cssImg} title="CSS"/></Tilt>
