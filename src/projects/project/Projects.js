@@ -29,6 +29,7 @@ const Projects = () => {
         backgroundImage: `url(${pageProfileImage})`,
     };
 
+
     return (
         <div id={"projects"} className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
