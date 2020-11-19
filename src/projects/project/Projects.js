@@ -4,7 +4,7 @@ import styleContainer from "../../common/styles/Container.module.css"
 import Project from "./project/Project";
 import Title from "../../common/components/title/Title";
 import socialNetwork from "./../../assets/image/sn3.jpg"
-import componentJpg from "./../../assets/image/component.jpg"
+// import componentJpg from "./../../assets/image/component.jpg"
 import pageProfileImage from "../../assets/image/pageProfile.jpg"
 import calculatorImg from "./../../assets/image/calculator2.png"
 import todoImg from "./../../assets/image/todo.png"
@@ -22,9 +22,9 @@ const Projects = () => {
     const todolist = {
         backgroundImage: `url(${todoImg})`,
     };
-    const compon = {
-        backgroundImage: `url(${componentJpg})`,
-    };
+    // const compon = {
+    //     backgroundImage: `url(${componentJpg})`,
+    // };
     const pageProfile = {
         backgroundImage: `url(${pageProfileImage})`,
     };
@@ -66,13 +66,13 @@ const Projects = () => {
                             linkGitHub={"https://github.com/ArtsiomYermakou/Calculator-UI"}
                             linkGHPages={"https://artsiomyermakou.github.io/Calculator-UI/"}
                         />
-                        <Project
-                            style={compon}
-                            title={"Mini component test"}
-                            shortDescr={"JS, SCSS, Material-UI, TypeScript, Hooks, Module CSS"}
-                            linkGitHub={"https://github.com/ArtsiomYermakou/ignat-lessons"}
-                            linkGHPages={"https://artsiomyermakou.github.io/ignat-lessons/#/"}
-                        />
+                        {/*<Project*/}
+                        {/*    style={compon}*/}
+                        {/*    title={"Mini component test"}*/}
+                        {/*    shortDescr={"JS, SCSS, Material-UI, TypeScript, Hooks, Module CSS"}*/}
+                        {/*    linkGitHub={"https://github.com/ArtsiomYermakou/ignat-lessons"}*/}
+                        {/*    linkGHPages={"https://artsiomyermakou.github.io/ignat-lessons/#/"}*/}
+                        {/*/>*/}
                     </div>
                 </Zoom>
             </div>
