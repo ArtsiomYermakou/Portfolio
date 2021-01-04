@@ -9,6 +9,7 @@ import pageProfileImage from "../../assets/image/pageProfile.jpg"
 import calculatorImg from "./../../assets/image/calculator2.png"
 import todoImg from "./../../assets/image/todo.png"
 import Zoom from "react-reveal";
+import okoloMoryaImg from "./../../assets/image/okolomorya.png"
 
 
 const Projects = () => {
@@ -25,6 +26,9 @@ const Projects = () => {
     // const compon = {
     //     backgroundImage: `url(${componentJpg})`,
     // };
+    const okoloMorya = {
+        backgroundImage: `url(${okoloMoryaImg})`,
+    };
     const pageProfile = {
         backgroundImage: `url(${pageProfileImage})`,
     };
@@ -73,6 +77,13 @@ const Projects = () => {
                         {/*    linkGitHub={"https://github.com/ArtsiomYermakou/ignat-lessons"}*/}
                         {/*    linkGHPages={"https://artsiomyermakou.github.io/ignat-lessons/#/"}*/}
                         {/*/>*/}
+                        <Project
+                            style={okoloMorya}
+                            title={"Property For Sale"}
+                            shortDescr={"NextJS, TypeScript, Styled-components, Ant Design, Hooks"}
+                            linkGitHub={"https://github.com/ArtsiomYermakou/ignat-lessons"}
+                            linkGHPages={"https://artsiomyermakou.github.io/ignat-lessons/#/"}
+                        />
                     </div>
                 </Zoom>
             </div>
