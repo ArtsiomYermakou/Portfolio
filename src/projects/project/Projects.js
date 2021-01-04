@@ -81,8 +81,7 @@ const Projects = () => {
                             style={okoloMorya}
                             title={"Property For Sale"}
                             shortDescr={"NextJS, TypeScript, Styled-components, Ant Design, Hooks"}
-                            linkGitHub={"https://github.com/ArtsiomYermakou/ignat-lessons"}
-                            linkGHPages={"https://artsiomyermakou.github.io/ignat-lessons/#/"}
+                            linkGHPages={"https://private-project-r9v918w86.vercel.app/"}
                         />
                     </div>
                 </Zoom>

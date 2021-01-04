@@ -11,7 +11,12 @@ const Project = (props) => {
                 <h3 className={style.projectTitle}>{props.title}</h3>
                 <span className={style.description}>{props.shortDescr}</span>
                 <a href={props.linkGitHub} target={"_blank"}>
-                    <span className={style.link}>Click to view the code</span>
+                    {
+                        props.linkGitHub
+                            ? <span className={style.link}>Click to view the code</span>
+                            : <span className={style.link}>Private project</span>
+                    }
+
                 </a>
             </div>
         </div>
