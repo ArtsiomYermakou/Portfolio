@@ -10,6 +10,7 @@ import calculatorImg from "./../../assets/image/calculator2.png"
 import todoImg from "./../../assets/image/todo.png"
 import Zoom from "react-reveal";
 import okoloMoryaImg from "./../../assets/image/okolomorya.png"
+import wobImage from "../../assets/image/wob.jpg"
 
 
 const Projects = () => {
@@ -31,6 +32,9 @@ const Projects = () => {
     };
     const pageProfile = {
         backgroundImage: `url(${pageProfileImage})`,
+    };
+    const wob = {
+        backgroundImage: `url(${wobImage})`,
     };
 
 
@@ -82,6 +86,12 @@ const Projects = () => {
                             title={"Property For Sale"}
                             shortDescr={"NextJS, TypeScript, Styled-components, Ant Design, Hooks"}
                             linkGHPages={"https://private-project-r9v918w86.vercel.app/"}
+                        />
+                        <Project
+                            style={wob}
+                            title={"WOW Boosting"}
+                            shortDescr={"NextJS, TypeScript, Redux, Thunk, Styled-components, Hooks, custom google-maps, google-auth"}
+                            linkGHPages={"http://dev.worldofboosting.net"}
                         />
                     </div>
                 </Zoom>
