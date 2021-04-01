@@ -22,6 +22,7 @@ import typeScriptImg from '../assets/image/typescript.png'
 import htmlImg from '../assets/image/html5.png'
 import cssImg from '../assets/image/css.png'
 import nextLogoImg from '../assets/image/next_logo.png'
+import styledComponentsImg from '../assets/image/styledcomponents.png'
 
 
 const Skills = () => {
@@ -48,6 +49,7 @@ const Skills = () => {
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={npmImg} title="NPM"/></Tilt>
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={herokuImg} title="Heroku"/></Tilt>
                         <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={fluxImg} title="Flux"/></Tilt>
+                        <Tilt className={"Tilt"} options={{max: 20}}><Skill icon={styledComponentsImg} title="Styled comp"/></Tilt>
                     </Zoom>
                 </div>
             </div>

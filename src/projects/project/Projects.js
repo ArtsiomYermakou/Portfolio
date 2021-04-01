@@ -11,6 +11,7 @@ import todoImg from "./../../assets/image/todo.png"
 import Zoom from "react-reveal";
 import okoloMoryaImg from "./../../assets/image/okolomorya.png"
 import wobImage from "../../assets/image/wob.jpg"
+import corporationChatImg from "../../assets/image/corporationChat.jpg"
 
 
 const Projects = () => {
@@ -35,6 +36,9 @@ const Projects = () => {
     };
     const wob = {
         backgroundImage: `url(${wobImage})`,
+    };
+    const corporationChat = {
+        backgroundImage: `url(${corporationChatImg})`
     };
 
 
@@ -92,6 +96,12 @@ const Projects = () => {
                             title={"WOW Boosting"}
                             shortDescr={"NextJS, TypeScript, Redux, Thunk, Styled-components, Hooks, custom google-maps, google-auth"}
                             linkGHPages={"http://dev.worldofboosting.net"}
+                        />
+                        <Project
+                            style={corporationChat}
+                            title={"Corporate chat"}
+                            shortDescr={"React, TypeScript, Redux, Thunk, Styled-components, Hooks, Material-ui"}
+                            linkGHPages={"https://artsiomyermakou.github.io/messanger-proto/"}
                         />
                     </div>
                 </Zoom>
