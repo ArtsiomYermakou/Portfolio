@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.063d9ea9.chunk.css",
-    "main.js": "/Portfolio/static/js/main.44507fd2.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.44507fd2.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.9a705942.chunk.css",
+    "main.js": "/Portfolio/static/js/main.3639bd83.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3639bd83.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.efb1fe8d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.efb1fe8d.js.map",
-    "static/js/2.45f823bb.chunk.js": "/Portfolio/static/js/2.45f823bb.chunk.js",
-    "static/js/2.45f823bb.chunk.js.map": "/Portfolio/static/js/2.45f823bb.chunk.js.map",
+    "static/js/2.96204bf2.chunk.js": "/Portfolio/static/js/2.96204bf2.chunk.js",
+    "static/js/2.96204bf2.chunk.js.map": "/Portfolio/static/js/2.96204bf2.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.153c5cd6a04a7ff01a966448408c3553.js": "/Portfolio/precache-manifest.153c5cd6a04a7ff01a966448408c3553.js",
+    "precache-manifest.9819f3a1bddad73f031f428ea7f95057.js": "/Portfolio/precache-manifest.9819f3a1bddad73f031f428ea7f95057.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.063d9ea9.chunk.css.map": "/Portfolio/static/css/main.063d9ea9.chunk.css.map",
-    "static/js/2.45f823bb.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.45f823bb.chunk.js.LICENSE.txt",
+    "static/css/main.9a705942.chunk.css.map": "/Portfolio/static/css/main.9a705942.chunk.css.map",
+    "static/js/2.96204bf2.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.96204bf2.chunk.js.LICENSE.txt",
     "static/media/calculator2.png": "/Portfolio/static/media/calculator2.db6bc0ad.png",
     "static/media/corporationChat.jpg": "/Portfolio/static/media/corporationChat.ca617c0e.jpg",
-    "static/media/mainPhoto.jpg": "/Portfolio/static/media/mainPhoto.cd72f207.jpg",
+    "static/media/lincker.png": "/Portfolio/static/media/lincker.0990727a.png",
+    "static/media/mainPhoto.jpg": "/Portfolio/static/media/mainPhoto.58c6a9cd.jpg",
     "static/media/okolomorya.png": "/Portfolio/static/media/okolomorya.f6f70fa8.png",
     "static/media/pageProfile.jpg": "/Portfolio/static/media/pageProfile.685a3822.jpg",
     "static/media/sn3.jpg": "/Portfolio/static/media/sn3.63342b72.jpg",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.efb1fe8d.js",
-    "static/js/2.45f823bb.chunk.js",
-    "static/css/main.063d9ea9.chunk.css",
-    "static/js/main.44507fd2.chunk.js"
+    "static/js/2.96204bf2.chunk.js",
+    "static/css/main.9a705942.chunk.css",
+    "static/js/main.3639bd83.chunk.js"
   ]
 }
