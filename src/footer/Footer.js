@@ -1,12 +1,12 @@
 import React from "react";
 import styleContainer from "../common/styles/Container.module.css"
 import style from "./Footer.module.scss"
-import FooterElement from "./footerElement/FooterElement";
-import Zoom from "react-reveal";
-import linkedIn from "../assets/image/linkedIn.png"
-import github from "../assets/image/github.png"
-import telegram from "../assets/image/telegram.png"
-import facebook from "../assets/image/facebook.png"
+// import FooterElement from "./footerElement/FooterElement";
+// import Zoom from "react-reveal";
+// import linkedIn from "../assets/image/linkedIn.png"
+// import github from "../assets/image/github.png"
+// import telegram from "../assets/image/telegram.png"
+// import facebook from "../assets/image/facebook.png"
 
 const Footer = () => {
     return (
