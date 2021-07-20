@@ -12,6 +12,7 @@ import Zoom from "react-reveal";
 import okoloMoryaImg from "./../../assets/image/okolomorya.png"
 import wobImage from "../../assets/image/wob.jpg"
 import corporationChatImg from "../../assets/image/corporationChat.jpg"
+import linckerImg from "../../assets/image/lincker.png"
 
 
 const Projects = () => {
@@ -40,6 +41,9 @@ const Projects = () => {
     const corporationChat = {
         backgroundImage: `url(${corporationChatImg})`
     };
+    const lincker = {
+        backgroundImage: `url(${linckerImg})`
+    }
 
 
     return (
@@ -102,6 +106,12 @@ const Projects = () => {
                             title={"Corporate chat"}
                             shortDescr={"React, TypeScript, Redux, Thunk, Styled-components, Hooks, Material-ui"}
                             linkGHPages={"https://artsiomyermakou.github.io/messanger-proto/"}
+                        />
+                        <Project
+                            style={lincker}
+                            title={"LinkedIn Extension"}
+                            shortDescr={"React, TypeScript, Redux, Thunk, SASS, Hooks, Ant Design, Moment"}
+                            linkGHPages={"https://google.com"}
                         />
                     </div>
                 </Zoom>
