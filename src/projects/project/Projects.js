@@ -14,7 +14,6 @@ import wobImage from "../../assets/image/wob.jpg"
 import corporationChatImg from "../../assets/image/corporationChat.jpg"
 import linckerImg from "../../assets/image/lincker.png"
 
-
 const Projects = () => {
 
     const social = {
