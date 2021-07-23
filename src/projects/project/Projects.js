@@ -99,7 +99,7 @@ const Projects = () => {
                             style={wob}
                             title={"WOW Boosting"}
                             shortDescr={"NextJS, TypeScript, Redux, Thunk, Styled-components, Hooks, custom google-maps, google-auth"}
-                            linkGHPages={"http://dev.worldofboosting.net"}
+                            linkGHPages={"https://wob.vercel.app/"}
                         />
                         <Project
                             style={corporationChat}
