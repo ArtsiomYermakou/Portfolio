@@ -16,7 +16,6 @@ import linckerImg from "../../assets/image/lincker.png"
 
 
 const Projects = () => {
-
     const social = {
         backgroundImage: `url(${socialNetwork})`,
     };
