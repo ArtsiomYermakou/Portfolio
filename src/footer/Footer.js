@@ -21,7 +21,7 @@ const Footer = () => {
                         <FooterElement photo={github} link={"https://github.com/ArtsiomYermakou"}/>
                     </Zoom>
                 </div>
-                <span className={style.copyright}>© 2020 copyright all right reserved.</span>
+                <span className={style.copyright}>© 2019 copyright all right reserved.</span>
             </div>
         </div>
     )
